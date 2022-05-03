@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:training_app/screens/columnlayout.dart';
-import 'package:training_app/screens/rowlayout.dart';
-import 'package:training_app/screens/rowncolumn.dart';
+import 'package:training_app/screens/rowAndColumns/example.dart';
+import 'package:training_app/screens/rowAndColumns/rowncolumn.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override  
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: RownColumn(),
+      home: ExampleScreen(),
     );
   }
 }
